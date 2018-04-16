@@ -9,7 +9,7 @@
         </div>
         <div class="right">
           <text class="right-text" v-if="item.value.length > 0">{{ item.value }}</text>
-          <input :type="item.inoputType" v-else class="input" maxlength="11" @input="inputFun($event,item.index,item.type,item.name)" :value="item.value" :placeholder="item.placeholder" />
+          <input :type="item.inoputType" v-else class="input" @input="inputFun($event,item.index,item.type,item.name)" :value="item.value" :placeholder="item.placeholder" />
         </div>
       </div>
 

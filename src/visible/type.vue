@@ -25,7 +25,7 @@
           {name:'初次拜访',value:1,selectedClass:false,type:1},
           {name:'新人初次拜访',value:2,selectedClass:false,type:0},
           {name:'未签单回访',value:3,selectedClass:false,type:1},
-          {name:'个人团单',value:4,selectedClass:false,type:1},
+          {name:'团单新签',value:4,selectedClass:false,type:1},
           {name:'个人新签',value:5,selectedClass:false,type:1},
           {name:'参加活动',value:6,selectedClass:false,type:0},
           {name:'培训',value:7,selectedClass:false,type:0}
